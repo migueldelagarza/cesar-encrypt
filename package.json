@@ -1,8 +1,8 @@
 {
   "name": "cesar-encrypt",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "Encrypt text with Cesar wheel",
-  "main": "cesar.js",
+  "main": "dist/cesar.js",
   "scripts": {
     "test": "node index.js",
     "build": "tsc ts/cesar.ts --outDir dist",
