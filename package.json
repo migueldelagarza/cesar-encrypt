@@ -5,7 +5,8 @@
   "main": "cesar.js",
   "scripts": {
     "test": "node index.js",
-    "build": "tsc ts/cesar.ts"
+    "build": "tsc ts/cesar.ts --outDir dist",
+    "start": "node dist/cesar.js"
   },
   "author": "Miguel de la Garza",
   "license": "ISC",
